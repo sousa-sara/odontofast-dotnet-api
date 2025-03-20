@@ -43,14 +43,5 @@ namespace OdontofastAPI.Repository
             return existingUsuario;
         }
 
-        public async Task<bool> DeleteAsync(long id)
-        {
-            var usuario = await _context.Usuarios.FindAsync(id);
-            if (usuario == null) return false;
-
-            _context.Usuarios.Remove(usuario);
-            await _context.SaveChangesAsync();
-            return true;
-        }
     }
 }

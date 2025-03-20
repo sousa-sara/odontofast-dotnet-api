@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OdontofastAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6cfb0cc86970e182fceb3ef00b77d04e4af3eb5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("OdontofastAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OdontofastAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -38,17 +38,6 @@ namespace OdontofastAPI.Controllers
             }
             return Ok(updatedUsuario);
         }
-
-        // DELETE /api/usuarios/{id}
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteUsuario(long id)
-        {
-            var isDeleted = await _usuarioService.DeleteUsuarioAsync(id);
-            if (!isDeleted)
-            {
-                return NotFound(new { Message = "Usuário não encontrado." });
-            }
-            return NoContent();
-        }
+  
     }
 }
